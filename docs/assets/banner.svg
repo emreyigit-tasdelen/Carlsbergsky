@@ -1,0 +1,41 @@
+<!-- Copyright (c) 2026 Emre Yiğit Taşdelen. SPDX-License-Identifier: MIT -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Carlsbergsky</title>
+  <desc id="d">Remote installer for Kaspersky Security Center Linux over SSH</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect x="0" y="292" width="1200" height="8" fill="url(#accent)"/>
+
+  <!-- left: remote connection diagram -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">
+    <rect x="70" y="95" width="150" height="110" rx="10" fill="#0b1220" stroke="#475569" stroke-width="2"/>
+    <text x="145" y="133" fill="#94a3b8" text-anchor="middle">Windows</text>
+    <text x="145" y="160" fill="#e2e8f0" text-anchor="middle">install_ksc.py</text>
+    <text x="145" y="184" fill="#64748b" text-anchor="middle">paramiko</text>
+
+    <line x1="225" y1="150" x2="345" y2="150" stroke="url(#accent)" stroke-width="3" stroke-dasharray="8 6"/>
+    <polygon points="345,142 361,150 345,158" fill="#38bdf8"/>
+    <text x="285" y="136" fill="#94a3b8" text-anchor="middle" font-size="13">SSH / SFTP</text>
+
+    <rect x="365" y="95" width="150" height="110" rx="10" fill="#0b1220" stroke="#34d399" stroke-width="2"/>
+    <text x="440" y="133" fill="#94a3b8" text-anchor="middle">Linux server</text>
+    <text x="440" y="160" fill="#e2e8f0" text-anchor="middle">ksc_fast_install</text>
+    <text x="440" y="184" fill="#34d399" text-anchor="middle">KSC 16.3</text>
+  </g>
+
+  <!-- right: title -->
+  <g font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+    <text x="580" y="140" font-size="64" font-weight="700" fill="#f8fafc">Carlsbergsky</text>
+    <text x="582" y="182" font-size="22" fill="#cbd5e1">Kaspersky Security Center Linux</text>
+    <text x="582" y="212" font-size="22" fill="url(#accent)">one-command remote first-time install</text>
+  </g>
+</svg>

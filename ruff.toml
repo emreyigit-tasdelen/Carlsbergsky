@@ -1,0 +1,7 @@
+# Copyright (c) 2026 Emre Yiğit Taşdelen
+# SPDX-License-Identifier: MIT
+line-length = 130
+target-version = "py310"
+
+[lint]
+select = ["E", "F", "W", "B"]

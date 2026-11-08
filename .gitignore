@@ -1,0 +1,16 @@
+# Copyright (c) 2026 Emre Yiğit Taşdelen
+# SPDX-License-Identifier: MIT
+
+# Python
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# Kaspersky distribution files (licensed, never committed)
+*.deb
+*.rpm
+*.tar.gz
+*.log
+
+# Local development context
+CLAUDE.md
